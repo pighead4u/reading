@@ -11,3 +11,18 @@
 1. ref vs reactive:what's the diffrence.
 1. don't mutate other state, make async requests, or mutate the DOM inside a computed getter!
 1. The key binding expects primitive values - i.e. strings and numbers. 
+
+## 2024-08-09
+
+### vue
+
+1. Note that locally registered components are not also available in descendant components.
+1. vue-route:
+    1. 通过 useRouter() 和 useRoute() 来访问路由器实例和当前路由
+    1. `params` 不能与 `path` 一起使用，`name`可以
+
+### TypeScript
+1. https://juejin.cn/post/7344282440725577765--Type和Interface的区别
+
+
+## 2024-08-12
